@@ -279,9 +279,8 @@ nav {
 
 .goal-card div img {
   margin-bottom: 10px;
-    width: 18px;
-    height: 16px;
-
+  width: 18px;
+  height: 16px;
 }
 .goal-card div p {
   width: 100%;
@@ -371,7 +370,7 @@ nav {
   font-size: 12px;
   margin-top: -5px;
 }
-.view-card div img{
+.view-card div img {
   width: 220px;
   height: 130px;
 }
@@ -875,6 +874,7 @@ footer .div4 p {
   }
   .goal-card div p {
     font-size: 8px;
+    margin-bottom: 0;
   }
 
   #goals .carousel-control-next-icon {
@@ -890,6 +890,13 @@ footer .div4 p {
   }
   .goal-card div h6 {
     font-size: 8px;
+    margin-bottom: 0;
+  }
+  .goal-card div h5 {
+    font-size: 9px;
+  }
+  .goal-card div hr{
+    margin: 5px;
   }
   .goal-card div i {
     font-size: 16px;
@@ -1054,7 +1061,7 @@ footer .div4 p {
 }
 @media (min-width: 480px) and (max-width: 700px) {
   /* HOME */
-  
+
   #home {
     background-position: center;
     background-size: cover;
@@ -1077,7 +1084,7 @@ footer .div4 p {
   .carousel-indicators {
     height: 600px;
   }
-  #courses .carousel-inner{
+  #courses .carousel-inner {
     height: 600px;
   }
   #carouselExampleIndicators .carousel-control-prev-icon {
@@ -1247,15 +1254,13 @@ footer .div4 p {
     width: 14px;
     height: 10px;
   }
-  .goal-card div{
+  .goal-card div {
     padding: 8px;
   }
   #courses .c2 p {
     width: 100%;
     font-size: 12px;
   }
-  
-  
 }
 @media (min-width: 700px) and (max-width: 800px) {
   .a2 {
@@ -1267,10 +1272,9 @@ footer .div4 p {
   #lg-cart {
     display: none;
   }
-  .goal-card div p{
+  .goal-card div p {
     margin-bottom: 0;
   }
- 
 }
 @media (min-width: 800px) and (max-width: 900px) {
   .a2 {
@@ -1279,20 +1283,18 @@ footer .div4 p {
   .a1 {
     display: none;
   }
-  
 }
 @media (min-width: 900px) and (max-width: 1024px) {
   .a1 {
     display: none;
   }
-  
 }
-@media (min-width:500px) and (max-width:1000px){
-  .goal-card div h5{
+@media (min-width: 500px) and (max-width: 1000px) {
+  .goal-card div h5 {
     font-size: 12px;
     padding-left: 10px;
   }
-  .goal-card div p{
+  .goal-card div p {
     font-size: 12px;
     margin-bottom: 20px;
   }
