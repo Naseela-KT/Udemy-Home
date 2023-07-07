@@ -890,13 +890,13 @@ footer .div4 p {
   }
   .goal-card div h6 {
     font-size: 8px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
   .goal-card div h5 {
     font-size: 9px;
   }
   .goal-card div hr{
-    margin: 5px;
+    margin: 10px;
   }
   .goal-card div i {
     font-size: 16px;
